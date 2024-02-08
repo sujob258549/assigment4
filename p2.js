@@ -2,19 +2,23 @@ function checkName(name) {
     if (typeof name !== "string") {
         return 'Invalid';
     }
-    
+
     let names = name.toLowerCase();
-    let len = names.length-1;
-   
-    // a, y, i , e , o , u, w
-    if( name.charAt(len) === "a" || name.charAt(len) === "y" || name.charAt(len) === "i" || name.charAt(len) === "e" || name.charAt(len) === "o" || name.charAt(len) === "u" || name.charAt(len) === "w"){
+    let len = names.length - 1;
+
+    if (names.charAt(len) === "a" || names.charAt(len) === "y" || names.charAt(len) === "i" || names.charAt(len) === "e" || names.charAt(len) === "o" || names.charAt(len) === "u" || names.charAt(len) === "w") {
         return `good names`
     }
-        
-        else{
-            return `bad names`
-        }
-    
+
+    else {
+        return `Bad names`
+    }
+
 }
-let input = checkName("sujor");
+
+
+
+
+
+let input = checkName("I");
 console.log(input)

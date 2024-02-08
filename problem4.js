@@ -29,5 +29,5 @@ function password(obj) {
 }
 
 
-const input = password({ name: "toky" , birthYear: 2001, siteName: "Facebook" });
+const input = password({ name: "toky" , birthYear: 2001, siteName: "facebook" });
 console.log(input);

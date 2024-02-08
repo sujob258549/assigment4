@@ -16,5 +16,5 @@ function deleteInvalids(array) {
     return outOfNumber;
 }
 
-const input = deleteInvalids([1 , null, undefined, 18, -19, NaN, "12", [1, 2], { ob: "lala" }]);
+const input = deleteInvalids([ 1 , 2 , -3 ]);
 console.log(input);

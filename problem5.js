@@ -36,5 +36,5 @@ function monthlySavings(arr, livingCost) {
 
 }
 
-const input = monthlySavings([ 1000 , 2000 , 6000 ] , 5000);
+const input = monthlySavings([3000 , 3000 ], 4800);
 console.log(input);

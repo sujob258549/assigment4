@@ -17,5 +17,5 @@ function checkName(name) {
  }
 
 
- let input = checkName("sujono");
+ let input = checkName("sujonO");
 console.log(input);

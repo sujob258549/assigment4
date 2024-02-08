@@ -13,5 +13,5 @@ function calculateMoney(ticketSale) {
 
 }
 
-const input = calculateMoney(93);
+const input = calculateMoney(-8);
 console.log(input);
